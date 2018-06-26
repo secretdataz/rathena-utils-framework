@@ -115,6 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="getopt.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="module_type_factory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="getopt.h" />
+    <ClInclude Include="module.hpp" />
+    <ClInclude Include="modules\echo\echo.hpp" />
+    <ClInclude Include="module_type_factory.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
